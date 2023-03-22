@@ -8,6 +8,13 @@ export const ContatoContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 80px 0;
+  
+      @media screen and (max-width: 1000px) {
+        height: 1800px;
+    }
+    @media screen and (max-width: 480px) {
+        height: 1800px;
+    }
 `
 
 export const ContatoH1 = styled.h1`
@@ -15,9 +22,12 @@ export const ContatoH1 = styled.h1`
   color: #000;
   margin-bottom: 64px;
 
-  @media screen and (max-width: 480px) {
-    font-size: 2rem;
-  }
+    @media screen and (max-width: 768px) {
+        text-align: center;
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 2rem;
+    }
 `
 
 export const Form = styled.form`

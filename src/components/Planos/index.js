@@ -53,19 +53,13 @@ const Planos = () => {
 
                 <PlanosCard>
                     <PlanosIcon src={Icon1} />
-                    <PlanosH2>{sobre.comment}
-                    </PlanosH2>
+                    <PlanosH2>Plano Start</PlanosH2>
                     <PlanosChecks>
                         <PlanosP>< CheckMark />Área de musculação e aeróbicos</PlanosP>
                         <PlanosP>< CheckMark />Fit Go treinos online</PlanosP>
                         <PlanosP>< CheckMark />Fit App</PlanosP>
                     </PlanosChecks>
-                    <PlanosH2>
-                        <ul style={{ listStyle: 'none' }}>
-                        {funcionalidadeItems.map((funcionalidades, index) => (
-                            <li className='fs-1' index={index}>{funcionalidades.name}</li>
-                        ))}</ul>
-                        </PlanosH2>
+                    <PlanosH2>R$ 119.99</PlanosH2>
                 </PlanosCard>
 
                 <PlanosCard>
@@ -76,7 +70,6 @@ const Planos = () => {
                         <PlanosP>< CheckMark />Fit Go treinos online</PlanosP>
                         <PlanosP>< CheckMark />Fit App</PlanosP>
                         <PlanosP>< CheckMark />Plano Vip 30 dias para um amigo</PlanosP>
-
                     </PlanosChecks>
                     <PlanosH2>R$ 119.99</PlanosH2>
                 </PlanosCard>

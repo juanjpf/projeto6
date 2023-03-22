@@ -67,7 +67,7 @@ export const PlanosIcon = styled.img`
     height: 160px;
     width: 160px;
     margin-bottom: 10px;
-    margin-top: 30px
+    margin-top: 20px
 `;
 
 export const PlanosH1 = styled.h1` 

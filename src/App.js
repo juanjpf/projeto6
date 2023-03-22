@@ -8,6 +8,7 @@ import ReqApi from './components/Login/API/ReqApi';
 import PostApi from './components/Login/API/PostApi'
 import AdminFuncionalidades from './components/admin/AdminFuncionalidades';
 import AdminSobre from './components/admin/AdminSobre';
+import Contato from './components/contato';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/post' element={<PostApi />} />
         <Route path='/admin/funcionalidades' element={<AdminFuncionalidades />} />
         <Route path='/admin/sobre' element={<AdminSobre />} />
+        <Route path='/contato' element={<Contato />} />
       </Routes>
     </Router>
   );

@@ -89,7 +89,7 @@ export const PlanosH1 = styled.h1`
 
 export const PlanosH2 = styled.h2` 
     font-size: 1.2rem;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 10px;
 `;
 
